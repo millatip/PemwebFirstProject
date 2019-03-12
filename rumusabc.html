@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABC Formula</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+           <h3>Menghitung X1 dan X2 dengan rumus ABC</h3>
+           <p>Masukkan nilai a, b, dan c. Formatnya adalah ax^2+bx+c</p>
+           <form>
+                <div class="form-group">
+                  <label for="nilai_a">Nilai a</label>
+                  <input type="text" class="form-control" id="nilai_a" placeholder="contoh = 2" value="2">
+                </div>
+                <div class="form-group">
+                  <label for="nilai_b">Nilai b</label>
+                  <input type="text" class="form-control" id="nilai_b" placeholder="contoh = -4" value="4">
+                </div>
+                <div class="form-group">
+                    <label for="nilai_c">Nilai b</label>
+                    <input type="text" class="form-control" id="nilai_c" placeholder="contoh = 6" value="9">
+                </div>
+            </form>
+            <button id="button_hitung" class="btn btn-primary" onclick="hitungABC();" >
+                Hitung
+            </button>  
+        </div>
+        <script src="asset/js/my_javascript.js"></script>
+    </body>
+</html>
